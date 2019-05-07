@@ -1,6 +1,8 @@
 # FlutterIOS
 Flutter IOS mix
 
+Flutter ios混编, 自己看的教程, 然后记录一下, 并记录一些未解决问题
+
    具体教程看: 
     
     https://juejin.im/entry/5c20fdf6e51d4522ec59fc7f
