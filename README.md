@@ -15,9 +15,11 @@ Flutter IOS mix
 
    关于其他细节
    
-    FlutterViewController是flutter渲染页面的基础, 继承自UIViewController, push的时候, 会带有native导航栏, 所以push的FlutterViewController需要考虑选择native的还是flutter导航栏
+    FlutterViewController是flutter渲染页面的基础, 继承自UIViewController,
+    push的时候, 会带有native导航栏, 所以push的FlutterViewController需要考虑选择native的还是flutter导航栏
     另外, FlutterViewController的view是铺满屏幕的, 所以需要控制显示区域(MediaQuery.of(context).padding)
-    上面的问题就会涉及到, 根据present或者push, 选择是否显示导航栏, 根据机型(x或者普通)来控制安全区域, 所以会有在初始化一个FlutterViewController传参的问题
+    上面的问题就会涉及到, 根据present或者push, 选择是否显示导航栏,
+    根据机型(x或者普通)来控制安全区域, 所以会有在初始化一个FlutterViewController传参的问题
 
 * 新建ios项目
 - 项目:  /Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/flutter-ios-mix.xcodeproj
