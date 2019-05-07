@@ -23,8 +23,8 @@ flutter create -t module flutter_module
 - 最后改造Appdelegate
 * 关于pod部分
 
-Swift使用是import Flutter
-然后直接使用FlutterViewController, 可以被继承作为主页
+Swift使用是import Flutter  
+然后直接使用FlutterViewController, 可以被继承作为主页  
 FlutterViewController就是Flutter的载体
 
    关于页面一一对应, 需要改造main.dart
