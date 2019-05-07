@@ -157,14 +157,19 @@ FlutterViewController就是Flutter的载体
 
 目前抽出FlutterForNativeViewController, 包含不完善的互相调用接口
 
-    另外还有一些问题:
-    1. native deinit方法不走, flutter里面的dispose不走(下面提及的内存问题)
-    2. push或者present的时候先显示启动页, 重写splashScreenView也不起作用
-    关于执行程序
+   另外还有一些问题:
+   
+    1. native deinit方法不走, flutter里面的dispose不走(下面提及的内存问题)  
+    2. push或者present的时候先显示启动页, 重写splashScreenView也不起作用  
+    
+   关于执行程序
+   
     启动程序, 需要是xcode执行, 如果在flutter端执行启动, 一些注册的交互会识别不到, 报错崩溃
+    
     cd工程目录(包含ios和android文件夹的共同目录中, lib中是代码文件)
     执行flutter attach, 会在xcode控制台, 打印出flutter中的log
     目前没发现hot reload有什么用, 不知道是不是姿势问题
+ 
     然后就是文末出现的内存问题, 打开flutter页面就不会内存会暴涨, 并且不会下降, 会一直涨
     还有FlutterPlatformView内存泄漏问题, flutter中使用原生view时导致的,
     具体看这三个链接, 期待后续Google自己解决问题
