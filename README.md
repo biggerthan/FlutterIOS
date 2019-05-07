@@ -37,6 +37,7 @@ FlutterViewController就是Flutter的载体
 
    关于页面一一对应, 需要改造main.dart
    
+   ```Dart
     import 'package:flutter/material.dart';
     import 'test.dart';
     import 'dart:ui' as ui;
@@ -57,7 +58,7 @@ FlutterViewController就是Flutter的载体
     // 页面必须是用MaterialApp包住, 否则报错
     return MaterialApp(home: widget,);
     }
-    
+   ```
     
    不同于flutter新建的项目中的main.dart, 入口不一样
    
