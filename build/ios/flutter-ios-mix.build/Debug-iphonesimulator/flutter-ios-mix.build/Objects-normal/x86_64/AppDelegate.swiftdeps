@@ -1,0 +1,198 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "15flutter_ios_mix11AppDelegateC"
+provides-member:
+- ["15flutter_ios_mix11AppDelegateC", ""]
+provides-dynamic-lookup:
+- "application"
+depends-top-level:
+- !private "??"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- "FlutterAppDelegate"
+- "FlutterPluginAppLifeCycleDelegate"
+- "UIApplication"
+depends-member:
+- ["15flutter_ios_mix11AppDelegateC", "Bool"]
+- ["15flutter_ios_mix11AppDelegateC", "FlutterPluginAppLifeCycleDelegate"]
+- ["15flutter_ios_mix11AppDelegateC", "UIApplication"]
+- ["15flutter_ios_mix11AppDelegateC", "_lifeCycle"]
+- ["15flutter_ios_mix11AppDelegateC", "application"]
+- ["15flutter_ios_mix11AppDelegateC", "deinit"]
+- ["15flutter_ios_mix11AppDelegateC", "init"]
+- !private ["s7CVarArgP", "FlutterPluginAppLifeCycleDelegate"]
+- ["s7CVarArgP", "LaunchOptionsKey"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_lifeCycle"]
+- !private ["s7CVarArgP", "application"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterPluginAppLifeCycleDelegate"]
+- ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_lifeCycle"]
+- !private ["s28CustomDebugStringConvertibleP", "application"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "application"]
+- !private ["s23CustomStringConvertibleP", "FlutterPluginAppLifeCycleDelegate"]
+- ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_lifeCycle"]
+- !private ["s23CustomStringConvertibleP", "application"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "application"]
+- !private ["SE", "application"]
+- !private ["SQ", "FlutterPluginAppLifeCycleDelegate"]
+- ["SQ", "LaunchOptionsKey"]
+- ["SQ", ""]
+- !private ["SQ", "_lifeCycle"]
+- !private ["SQ", "application"]
+- !private ["SQ", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "application"]
+- ["So18FlutterAppDelegateC", "Bool"]
+- ["So18FlutterAppDelegateC", "FlutterPluginAppLifeCycleDelegate"]
+- ["So18FlutterAppDelegateC", "UIApplication"]
+- ["So18FlutterAppDelegateC", ""]
+- ["So18FlutterAppDelegateC", "_lifeCycle"]
+- ["So18FlutterAppDelegateC", "application"]
+- ["So18FlutterAppDelegateC", "init"]
+- !private ["So27FlutterAppLifeCycleProviderP", "FlutterPluginAppLifeCycleDelegate"]
+- ["So27FlutterAppLifeCycleProviderP", ""]
+- !private ["So27FlutterAppLifeCycleProviderP", "_lifeCycle"]
+- !private ["So27FlutterAppLifeCycleProviderP", "init"]
+- !private ["So33FlutterPluginAppLifeCycleDelegateC", "application"]
+- !private ["So33FlutterPluginAppLifeCycleDelegateC", "init"]
+- !private ["So21FlutterPluginRegistryP", "FlutterPluginAppLifeCycleDelegate"]
+- ["So21FlutterPluginRegistryP", ""]
+- !private ["So21FlutterPluginRegistryP", "_lifeCycle"]
+- !private ["So21FlutterPluginRegistryP", "init"]
+- !private ["SH", "FlutterPluginAppLifeCycleDelegate"]
+- ["SH", "LaunchOptionsKey"]
+- ["SH", ""]
+- !private ["SH", "_lifeCycle"]
+- !private ["SH", "application"]
+- !private ["SH", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "FlutterPluginAppLifeCycleDelegate"]
+- ["So8NSObjectC", "LaunchOptionsKey"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "_lifeCycle"]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "FlutterPluginAppLifeCycleDelegate"]
+- ["So8NSObjectP", "LaunchOptionsKey"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_lifeCycle"]
+- !private ["So8NSObjectP", "application"]
+- !private ["So8NSObjectP", "init"]
+- !private ["Sq", "application"]
+- ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "FlutterPluginAppLifeCycleDelegate"]
+- ["So21UIApplicationDelegateP", ""]
+- !private ["So21UIApplicationDelegateP", "_lifeCycle"]
+- !private ["So21UIApplicationDelegateP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "FlutterPluginAppLifeCycleDelegate"]
+- ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "_lifeCycle"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "FlutterPluginAppLifeCycleDelegate"]
+- ["So11UIResponderC", "LaunchOptionsKey"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "_lifeCycle"]
+- ["So11UIResponderC", "application"]
+- ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "FlutterPluginAppLifeCycleDelegate"]
+- ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "_lifeCycle"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So23UIUserActivityRestoringP", "FlutterPluginAppLifeCycleDelegate"]
+- ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "_lifeCycle"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterPluginAppLifeCycleDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_lifeCycle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "application"]
+depends-nominal:
+- "15flutter_ios_mix11AppDelegateC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "So18FlutterAppDelegateC"
+- "So27FlutterAppLifeCycleProviderP"
+- !private "So33FlutterPluginAppLifeCycleDelegateC"
+- "So21FlutterPluginRegistryP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "So13UIApplicationC"
+- "So21UIApplicationDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So23UIUserActivityRestoringP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterCallbackCache.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterEngine.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterTexture.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterAppDelegate.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterPlugin.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterViewController.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterHeadlessDartRunner.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/Flutter.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterCodecs.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterChannels.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterMacros.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterPlatformViews.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Headers/FlutterDartProject.h"
+- "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/Flutter/engine/Flutter.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2f4d181111d89b74615e9ec1ad2afee4"

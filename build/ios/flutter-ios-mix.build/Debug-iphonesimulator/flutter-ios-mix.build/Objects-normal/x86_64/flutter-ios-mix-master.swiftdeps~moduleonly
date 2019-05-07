@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "d491b9ccaaf4736a6fe20179fdc4ce9a"
+build_time: [1557111499, 20990000]
+inputs:
+  "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/flutter-ios-mix/FlutterForNativeViewController.swift": [1557037213, 513317045]
+  "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/flutter-ios-mix/ViewController.swift": [1556608783, 471470853]
+  "/Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/flutter-ios-mix/AppDelegate.swift": [1556518879, 915222250]

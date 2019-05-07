@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  flutter-ios-mix
+//
+//  Created by liu on 2019/4/29.
+//  Copyright © 2019 liu. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Flutter.xcconfig"
+FLUTTER_BUILD_MODE=release
+#include "Pods/Target Support Files/Pods-flutter-ios-mix/Pods-flutter-ios-mix.release.xcconfig"
