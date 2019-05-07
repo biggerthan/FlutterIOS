@@ -54,14 +54,14 @@ FlutterViewController就是Flutter的载体
       default:
         widget = MyHomePage(title: 'Flutter Demo Home Page');
         break;
-    }
-    // 页面必须是用MaterialApp包住, 否则报错
-    return MaterialApp(home: widget,);
+      }
+      // 页面必须是用MaterialApp包住, 否则报错
+      return MaterialApp(home: widget,);
     }
    ```
     
    不同于flutter新建的项目中的main.dart, 入口不一样
-   
+   ```Dart
     // 不同于flutter项目, main的入口是MyApp
     // 原生调用flutter, 需要设置上述路由, 来指定页面跳转
     // void main() => runApp(MyApp());
@@ -75,6 +75,7 @@ FlutterViewController就是Flutter的载体
     //     );
     //   }
     // }
+   ```
     
     
    关于交互
