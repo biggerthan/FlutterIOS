@@ -24,6 +24,7 @@ flutter create -t module flutter_module
 * 添加flutter脚本, 脚本需要注释一行, 引入脚本产物
 - 最后改造Appdelegate
 * 关于pod部分
+![image](https://github.com/biggerthan/FlutterIOS/blob/master/WX20190506-110726%402x.png)
 
 Swift使用是import Flutter  
 然后直接使用FlutterViewController, 可以被继承作为主页  
