@@ -13,14 +13,6 @@ Flutter IOS mix
     屏幕size
     MediaQuery.of(context).size.width
 
-   关于其他细节
-   
-    FlutterViewController是flutter渲染页面的基础, 继承自UIViewController,
-    push的时候, 会带有native导航栏, 所以push的FlutterViewController需要考虑选择native的还是flutter导航栏
-    另外, FlutterViewController的view是铺满屏幕的, 所以需要控制显示区域(MediaQuery.of(context).padding)
-    上面的问题就会涉及到, 根据present或者push, 选择是否显示导航栏,
-    根据机型(x或者普通)来控制安全区域, 所以会有在初始化一个FlutterViewController传参的问题
-
 * 新建ios项目
 - 项目:  /Users/liu/Flutter/FlutterIOSMix/flutter-ios-mix/flutter-ios-mix.xcodeproj
 * 在项目同级目录下创建flutter_module
@@ -29,7 +21,7 @@ flutter create -t module flutter_module
 指定 config 文件，Debug 对应 Debug，Release 对应 Release
 * 添加flutter脚本, 脚本需要注释一行, 引入脚本产物
 - 最后改造Appdelegate
-* 关于pod部分:
+* 关于pod部分
 
 Swift使用是import Flutter
 然后直接使用FlutterViewController, 可以被继承作为主页
@@ -152,6 +144,15 @@ FlutterViewController就是Flutter的载体
     
 }
 ```
+
+关于其他细节
+   
+    FlutterViewController是flutter渲染页面的基础, 继承自UIViewController,
+    push的时候, 会带有native导航栏, 所以push的FlutterViewController需要考虑选择native的还是flutter导航栏
+    另外, FlutterViewController的view是铺满屏幕的, 所以需要控制显示区域(MediaQuery.of(context).padding)
+    上面的问题就会涉及到, 根据present或者push, 选择是否显示导航栏,
+    根据机型(x或者普通)来控制安全区域, 所以会有在初始化一个FlutterViewController传参的问题
+
 目前抽出FlutterForNativeViewController, 包含不完善的互相调用接口
 
     另外还有一些问题:
